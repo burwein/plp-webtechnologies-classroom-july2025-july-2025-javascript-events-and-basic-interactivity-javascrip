@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form input, form button {
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+.dark-mode button {
+  background: #444;
+}
